@@ -1,0 +1,20 @@
+# 登录凭证, 严禁提交
+cookies.json
+*_cookies.json
+
+# 抓取/聚类产物
+followings.json
+videos.json
+vids_raw.json
+failures.json
+group_failures.json
+up_list.csv
+up_list_final.csv
+clusters.json
+up_map.png
+分类报告.md
+*.npy
+best_lab.json
+
+__pycache__/
+*.pyc
