@@ -1,0 +1,23 @@
+[
+  {"query": "我B站关注了500多个人，乱得一批，能帮我把他们按内容分个类吗", "should_trigger": true},
+  {"query": "帮我把B站『我的关注』里的UP主整理一下，直接在我账号上建好分组行不行", "should_trigger": true},
+  {"query": "我想知道自己平时都在B站看些什么领域的up，能不能给我出个报告，最好有张图", "should_trigger": true},
+  {"query": "关注列表太长了，想按游戏/科技/学习这种维度分好组，手动拖了半小时才搞定50个，剩下的不想拖了", "should_trigger": true},
+  {"query": "b站关注分类 用语义聚类做 我要一份csv清单", "should_trigger": true},
+  {"query": "我最近想清理一下B站关注, 先帮我把关注的人都列出来并归类, 看看哪些领域关注太多了", "should_trigger": true},
+  {"query": "把 https://space.bilibili.com/3493113343510771/relation/follow 这个页面里我关注的up按主题聚类，然后调接口批量移到对应分组里", "should_trigger": true},
+  {"query": "categorize my bilibili following list into groups using embeddings and create the groups on my account", "should_trigger": true},
+  {"query": "我写论文要分析自己的媒体消费结构，需要B站关注UP主的分领域统计和一张兴趣分布图", "should_trigger": true},
+  {"query": "帮我看下我关注的UP主里做网络安全的有哪些，我想把他们单独归一组，以后找资料方便", "should_trigger": true},
+
+  {"query": "帮我把我B站收藏夹里的视频按内容分一下类，收藏了300多个", "should_trigger": false},
+  {"query": "用yt-dlp把B站上关注的UP主最近更新的视频下载下来", "should_trigger": false},
+  {"query": "我抖音关注了很多人也挺乱的，能帮我分类吗", "should_trigger": false},
+  {"query": "怎么在B站涨粉比较快？我发了几十个视频播放量都很低", "should_trigger": false},
+  {"query": "帮我写个脚本抓B站某个UP主的所有视频标题和播放量，做成Excel做数据分析", "should_trigger": false},
+  {"query": "B站的分组功能最多能建多少个？我账号里的分组数量好像到上限了", "should_trigger": false},
+  {"query": "帮我把B站关注列表里停更超过一年的UP主找出来，我想批量取关掉", "should_trigger": false},
+  {"query": "我B站关注了很多人，怎么才能知道哪些人发新视频了？想要一个推送通知", "should_trigger": false},
+  {"query": "帮我把这个B站视频的字幕提取出来整理成文字稿", "should_trigger": false},
+  {"query": "给我推荐几个B站上做机器学习的中文UP主，最好是有系统课程的", "should_trigger": false}
+]

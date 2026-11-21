@@ -35,6 +35,19 @@ python scripts/apply_groups.py         # 可选：直接建分组并移人
 - 分组名不允许 `·` 等特殊字符（22101）；含注销账号的批次整批失败（22013），脚本会自动降级为逐个重试
 - 国内环境：PyPI 走阿里云镜像，HuggingFace 走 hf-mirror.com
 
+## 触发准确率（evals/）
+
+`description` 决定 skill 会不会被唤起。用 20 条真实 query（10 正 / 10 near-miss 负）跑真实 agent 环境实测：
+
+| 版本 | 准确率 | 误触发 |
+|---|---|---|
+| v1 首版（堆关键词） | 80% | 4 |
+| **v2 采用版**（写清核心意图 + 点出反例） | **95%** | 1 |
+| v3 实验（把反例列成"不要用"清单） | 85% | 3 |
+
+v3 是反面教材：在 description 里堆 `收藏夹`/`分组`/`取关` 这类负向关键词，它们自己变成了新的触发线索。
+方法论与复现步骤见 [evals/README.md](evals/README.md)，评测脚本是 [evals/run_trigger_eval.py](evals/run_trigger_eval.py)。
+
 ## 效果示例（548 个关注）
 
 | 分类 | 人数 |
